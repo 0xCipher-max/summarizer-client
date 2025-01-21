@@ -25,7 +25,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/extract-and-summarize",
+        "https://summarizer-server.vercel.app/api/extract-and-summarize",
         {
           method: "POST",
           body: formData,
